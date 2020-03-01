@@ -119,7 +119,6 @@ function draw() {
   }
   function mousePressed() {
   if (birthday.isPlaying()) {
-    // .isPlaying() returns a boolean
     birthday.stop();
 } else {
     birthday.play();
